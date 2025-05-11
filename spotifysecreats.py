@@ -82,8 +82,8 @@ def resettokens():
     return access_token, refresh_token
 
 
-client_id = r"256fb20e96eb4feda1ca7849fd7a9c82"  # your client id here
-client_secrets = r"8c084027740c4e8d89e47a50b817ae6b"  # your client secrets here
+client_id = r""  # your client id here
+client_secrets = r""  # your client secrets here
 clientsex = f"{client_id}:{client_secrets}"
 base_64 = str(base64.b64encode(clientsex.encode("utf-8")), "utf-8")
 website = r"https://localhost:8888/callback"
